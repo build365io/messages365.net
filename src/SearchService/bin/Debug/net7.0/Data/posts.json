@@ -1,0 +1,18 @@
+[
+    {
+        "id": "e8fd2c8b-4960-4e6d-81f9-b47c2d9befa6",
+        "title": "Title",
+        "content": "Content",
+        "imageUrl": "https://unsplash.com/photos/Y-rXBRdm3x0/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTI4fHxjaW5xdWUlMjB0ZXJyZXxlbnwwfHx8fDE3MDExMTQyMjl8MA&force=true",
+        "author": null,
+        "createdAt": "2024-01-03T13:06:48.821195Z"
+    },
+    {
+        "id": "ce7d28b3-81e0-438f-9a03-9dde781fc229",
+        "title": "Title2",
+        "content": "Content2",
+        "imageUrl": "https://unsplash.com/photos/jbxbza3DwBI/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MjA3fHxzYW50b3Jpbml8ZW58MHx8fHwxNzAxMTE0NDIzfDA&force=true",
+        "author": null,
+        "createdAt": "2024-01-03T13:06:48.821233Z"
+    }
+]

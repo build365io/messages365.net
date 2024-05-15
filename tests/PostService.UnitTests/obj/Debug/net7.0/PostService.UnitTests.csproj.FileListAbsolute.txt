@@ -1,0 +1,7 @@
+C:\Users\messa\OneDrive\Desktop\messages365.net\tests\PostService.UnitTests\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\Users\messa\OneDrive\Desktop\messages365.net\tests\PostService.UnitTests\obj\Debug\net7.0\PostService.UnitTests.csproj.AssemblyReference.cache
+C:\Users\messa\OneDrive\Desktop\messages365.net\tests\PostService.UnitTests\obj\Debug\net7.0\PostService.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\messa\OneDrive\Desktop\messages365.net\tests\PostService.UnitTests\obj\Debug\net7.0\PostService.UnitTests.AssemblyInfoInputs.cache
+C:\Users\messa\OneDrive\Desktop\messages365.net\tests\PostService.UnitTests\obj\Debug\net7.0\PostService.UnitTests.AssemblyInfo.cs
+C:\Users\messa\OneDrive\Desktop\messages365.net\tests\PostService.UnitTests\obj\Debug\net7.0\PostService.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\messa\OneDrive\Desktop\messages365.net\tests\PostService.UnitTests\obj\Debug\net7.0\PostService.UnitTests.sourcelink.json

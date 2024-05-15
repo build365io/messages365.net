@@ -1,0 +1,5 @@
+.message-input {
+    border: none !important;
+    background-color: rgb(253 246 178 / var(--tw-bg-opacity)) !important;
+    border-radius: 10px;
+}

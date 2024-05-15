@@ -1,0 +1,12 @@
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\bin\Debug\net7.0\Contracts.deps.json
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\bin\Debug\net7.0\Contracts.dll
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\bin\Debug\net7.0\Contracts.pdb
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\obj\Debug\net7.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\obj\Debug\net7.0\Contracts.AssemblyInfoInputs.cache
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\obj\Debug\net7.0\Contracts.AssemblyInfo.cs
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\obj\Debug\net7.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\obj\Debug\net7.0\Contracts.sourcelink.json
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\obj\Debug\net7.0\Contracts.dll
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\obj\Debug\net7.0\refint\Contracts.dll
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\obj\Debug\net7.0\Contracts.pdb
+C:\Users\messa\OneDrive\Desktop\messages365.net\src\Contracts\obj\Debug\net7.0\ref\Contracts.dll
