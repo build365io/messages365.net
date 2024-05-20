@@ -10,7 +10,7 @@ public class WeatherForecastController : ControllerBase
 {
     public WeatherForecastController()
     {
-        
+      
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
