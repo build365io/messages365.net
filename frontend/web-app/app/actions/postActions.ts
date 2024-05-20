@@ -5,7 +5,7 @@ import { PagedResult, Post } from "@/types"
 import { FieldValues } from "react-hook-form"
 
 export async function getData(query: string): Promise<PagedResult<Post>> {
-    const res = await fetch(`http://localhost:6001/search${query}`);
+    const res = await fetch(process.env.API_URL+`search${query}`);
 
     if (!res.ok) throw new Error('Failed to fetch data')
 

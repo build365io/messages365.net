@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KW1cNOg9Iz+3rvLpHLl0wmmkhlzCzVW3HCK8LdiI4OGRZ9kc+NVmnG3EPk1oWPzs+yu49oG14Md3faHK9HKlwQ==",
+  "dgSpecHash": "XVBrOPLHwKUXH051zf9z8onIPO3WfDXMYJoM/Zv77mFfwQHNjvbfX7U4AQ4PngoMW6K/kfZMlWrsgRGWya8/hA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\messa\\OneDrive\\Desktop\\messages365.net\\src\\Contracts\\Contracts.csproj",
+  "projectFilePath": "/Users/kenneth/Desktop/messages365.net/src/Contracts/Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

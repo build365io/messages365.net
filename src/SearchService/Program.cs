@@ -1,4 +1,5 @@
 using MassTransit;
+using Polly;
 using SearchService;
 using SearchService.Consumers;
 
@@ -16,6 +17,12 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());builder.
     
     x.UsingRabbitMq((context, cfg) => 
     {
+        cfg.UseRetry(r => 
+        {
+            r.Handle<RabbitMqConnectionException>();
+            r.Interval(5, TimeSpan.FromSeconds(10));
+        });
+        
         cfg.Host(builder.Configuration["RabbitMq:Host"], "/", host =>
         {
             host.Username(builder.Configuration.GetValue("RabbitMq:Username", "guest"));
@@ -39,14 +46,13 @@ var app = builder.Build();
 app.UseAuthorization();
 
 app.MapControllers();
+app.Lifetime.ApplicationStarted.Register(async () =>
+{
+    await Policy.Handle<TimeoutException>()
+        .WaitAndRetryAsync(5, retryAttempt => TimeSpan.FromSeconds(10))
+        .ExecuteAndCaptureAsync(async () =>  await DbInitializer.InitDb(app));
 
-try
-{
-    await DbInitializer.InitDb(app);
-}
-catch (Exception e)
-{
-  Console.WriteLine(e);
-}
+});
 
 app.Run();
+

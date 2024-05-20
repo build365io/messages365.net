@@ -5,7 +5,7 @@ import { Message, PagedResult, Post } from "@/types"
 import { FieldValues } from "react-hook-form"
 
 export async function getData(): Promise<Message[]> {
-    const res = await fetch(`http://localhost:6001/messages`);
+    const res = await fetch(process.env.API_URL+`messages`);
 
     if (!res.ok) throw new Error('Failed to fetch data')
 

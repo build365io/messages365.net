@@ -27,11 +27,30 @@ const nextConfig = {
                 hostname: "localhost",
                 pathname: '**',
             }
-        ],
-    }
+        ]
+    },
+    output: 'standalone'
 }
 
 module.exports = nextConfig
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

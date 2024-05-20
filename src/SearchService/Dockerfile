@@ -9,6 +9,7 @@ COPY src/GatewayService/GatewayService.csproj src/GatewayService/GatewayService.
 COPY src/Contracts/Contracts.csproj src/Contracts/Contracts.csproj
 COPY src/IdentityService/IdentityService.csproj src/IdentityService/IdentityService.csproj
 COPY src/NotificationService/NotificationService.csproj src/NotificationService/NotificationService.csproj
+COPY src/Bridges/Bridges.csproj src/Bridges/Bridges.csproj
 COPY tests/PostService.UnitTests/PostService.UnitTests.csproj tests/PostService.UnitTests/PostService.UnitTests.csproj
 
 RUN dotnet restore messages365.net.sln

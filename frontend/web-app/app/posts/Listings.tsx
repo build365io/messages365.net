@@ -37,7 +37,7 @@ export default function Listings() {
                         <div className="bg-white ml-12 mb-5 mt-2">
                             <div>{post.author}</div>
                             <h5 className="mb-2 text-lg font-semibold tracking-tight">Noteworthy technology acquisitions 2021</h5>
-                            <div className="mb-3 text-sm">{post.content?.slice(0, 81)}{post.content?.length > 81 && <Link href={`/posts/${post.id}`} className='group'><p className='text-blue-500'>Read more...</p>
+                            <div className="mb-3 text-sm">{post.content?.slice(0, 81)}{post.content?.length > 81 && <Link href={`/posts/details/${post.id}`} className='group'><p className='text-blue-500'>Read more...</p>
                             </Link>}</div>
                             <a href="#">
                                 <PostImage imageUrl={post.imageUrl}/>

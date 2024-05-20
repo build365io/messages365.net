@@ -1,7 +1,7 @@
 import React from 'react'
-import PostImage from '../PostImage';
+import PostImage from '../../PostImage';
 
-export async function getData(id: string) {
+async function getData(id: string) {
   const res = await fetch(`http://localhost:7001/api/posts/${id}`);
 
   if (!res.ok) throw new Error('Failed to fetch data');
